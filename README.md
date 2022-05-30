@@ -123,8 +123,14 @@ We will create a virtual environment with `python3`
 
 <!-- CONTACT -->
 ## Contact
+[Alejandro Marcano] 
 
-Arnau Puche  - [@arnau_puche_vila](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com
+[Arnau Puche](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com 
+
+[Jordi Segura] 
+
+[Pol Gracia]
+
 
 Project Link: [https://github.com/aleconwifi/Final-JOBarcelona-22](https://github.com/aleconwifi/Final-JOBarcelona-22)
 
