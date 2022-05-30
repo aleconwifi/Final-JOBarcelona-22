@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/aleconwifi/Final-JOBarcelona-22">
-    <img src="images/.jpeg" alt="Logo" width="80" height="80">
+    <img src="hack.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Final-JOBarcelona-22</h3>
