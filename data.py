@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime , timedelta
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from PIL import Image
 import streamlit.components.v1 as components
 @st.cache
