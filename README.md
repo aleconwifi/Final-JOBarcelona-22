@@ -115,6 +115,10 @@ We will create a virtual environment with `python3`
 
 ## Usage
 
+* Run dashboard
+    ```sh
+    streamlit run data.py 
+    ```
 
 
 <!-- CONTACT -->
