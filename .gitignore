@@ -1,3 +1,4 @@
 venv
 src/MLmodels/__pycache__
 src/MLmodels/.ipynb_checkpoints
+src/.ipynb_checkpoints
