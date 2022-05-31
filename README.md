@@ -75,6 +75,9 @@
 * [scikit-learn](https://scikit-learn.org/)
 * [Numpy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/)
+* [Streamlit](https://streamlit.io)
+* [CatBoost](https://catboost.ai)
+* [XGBoost](https://xgboost.readthedocs.io/en/stable/)
 * [Seaborn](https://seaborn.pydata.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
