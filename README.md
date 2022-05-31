@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/aleconwifi/Final-JOBarcelona-22">
-    <img src="hack.png" alt="Logo" width="80" height="80">
+    <img src="web/hack.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Final-JOBarcelona-22</h3>
@@ -75,6 +75,9 @@
 * [scikit-learn](https://scikit-learn.org/)
 * [Numpy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/)
+* [Streamlit](https://streamlit.io)
+* [CatBoost](https://catboost.ai)
+* [XGBoost](https://xgboost.readthedocs.io/en/stable/)
 * [Seaborn](https://seaborn.pydata.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -123,13 +126,13 @@ We will create a virtual environment with `python3`
 
 <!-- CONTACT -->
 ## Contact
-[Alejandro Marcano] 
+[Alejandro Marcano](https://www.linkedin.com/in/alemarcano/) - alemvangrieken@gmail.com
 
 [Arnau Puche](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com 
 
-[Jordi Segura] 
+[Jordi Segura](https://www.linkedin.com/in/jordisegurapons/) - jordisp09.gmail.com 
 
-[Pol Gracia]
+[Pol Gracia](https://www.linkedin.com/in/pol-gràcia-595543200/) - pol.graciae@gmail.com
 
 
 Project Link: [https://github.com/aleconwifi/Final-JOBarcelona-22](https://github.com/aleconwifi/Final-JOBarcelona-22)
