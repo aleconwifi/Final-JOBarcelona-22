@@ -7,8 +7,9 @@ from PIL import Image
 import streamlit.components.v1 as components
 import plotly.express as px
 import plotly.express as px
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+# import pandas_profiling
+# from streamlit_pandas_profiling import st_profile_report
+import webbrowser
 
 
 #librerias del jupyter 
@@ -30,9 +31,7 @@ data.add_assists_value()
 data.add_nations_value()
 data.add_champions_score()
 
-#Dataset_fallecidos = data[data['Atención'] == 'Fallecido']
 
-###---------Titulos principales -------------------
 
 image = Image.open('hack.png')
 st.image(image)
@@ -113,9 +112,7 @@ elif nav_link == "Análisis Exploratorio 📊":
     st.plotly_chart(fig00, use_container_width=True)
 
 
-    p = open("../data/data_profile.html")
 
-    components.html(p.read(),  height= 1600, width=1600)
 
     #st_profile_report(p)
     
@@ -149,6 +146,7 @@ elif nav_link == "Análisis Exploratorio 📊":
     fig6 = px.imshow(data.filter_top_leagues().corr(), text_auto='.2f', aspect="auto",  color_continuous_scale='BuPu', width=1200, height=800)
     st.plotly_chart(fig6, use_container_width=True)
 
+
     st.write("""## Feature Engineering
                     * Según la liga del jugador:
                         - Multiplicar los goles o las asistencias de los jugadores por una score que puntua la importáncia de las ligas.
@@ -157,7 +155,18 @@ elif nav_link == "Análisis Exploratorio 📊":
                         - Multiplicar el valor de veces seleccionado por una score que puntua la importáncia de las selecciones.
                         - El paso anterior con los goles también.
             """)
-    
+
+    image3 = Image.open('featuring2.png')
+    st.image(image3)
+
+
+    p = open("../data/data_profile.html")
+
+    components.html(p.read(),  height= 20000, width=1500)
+
+    url = '../data/data_profile.html'
+
+
     st.write(''' 
     
         * ATTENTION
@@ -183,6 +192,24 @@ elif nav_link == "Modelo Predictivo 🔥":
     """## Modelos de Predicción 
     """)
 
+    st.write('Extreme Gradient Boosting (XGBoost) es una biblioteca de código abierto que proporciona una implementación eficiente y efectiva del algoritmo de aumento de gradiente.')
+    st.write('Poco después de su desarrollo y lanzamiento inicial, XGBoost se convirtió en el método de referencia y, a menudo, en el componente clave para obtener soluciones para una variedad de problemas en las competencias de aprendizaje automático.')
+
+    image2 = Image.open('Model.png')
+    st.image(image2)
+
+    st.write('Se separo el dataset de entrenamiento y validación en la proporción 80-20 tomando en cuenta el tamaño del dataset')
+    st.write('### Metricas')
+    st.write('Se utilizo de métrica R2')
+
+    
+    image4 = Image.open('results.png')
+    st.image(image4)
+
+    image3 = Image.open('features.png')
+    st.image(image3)
+    
+
 
 elif nav_link == "Conclusiones ⚽️":
     st.write("""
@@ -197,6 +224,8 @@ elif nav_link == "Conclusiones ⚽️":
         - Falta información para clasificar los porteros
         - Sería bueno ver la evolución de los goles/temporada en el mundo del futbol para ajustar el valor del gol en el momento actual.
         - Ver como evoluciona la economía en el mundo del fútbol, hace 20 años los jugadores costaban menos.
+        - Probar el modelo con redes neuronales para ver el performance, no nos dio tiempo de probar mas modelos
+
 
 
     *   Conclusiones del modelo
