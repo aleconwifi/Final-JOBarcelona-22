@@ -42,7 +42,15 @@ if nav_link == "Inicio":
 elif nav_link == "Análisis Exploratorio":
     st.header("Análisis Exploratorio de Datos")
     st.write('A continuación se muestran una serie de gráficos que despliegan información acerca de los datos:')
-  
+    st.write("""## Feature Engineering
+                    * Según la liga del jugador:
+                        - Multiplicar los goles o las asistencias de los jugadores por una score que puntua la importáncia de las ligas.
+
+                    * Según la nacionalidad:
+                        - Multiplicar el valor de veces seleccionado por una score que puntua la importáncia de las selecciones.
+                        - El paso anterior con los goles también.
+            """)
+
     p = open("data_profile.html")
 
     components.html(p.read())
