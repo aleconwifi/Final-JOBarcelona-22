@@ -113,13 +113,15 @@ elif nav_link == "Análisis Exploratorio 📊":
     st.plotly_chart(fig00, use_container_width=True)
 
 
-    # p = open("../data/data_profile.html")
+    p = open("../data/data_profile.html")
 
-    # components.html(p.read(),  height= 1600, width=1600)
+    components.html(p.read(),  height= 1600, width=1600)
 
-    pr = df.profile_report()
+    #st_profile_report(p)
+    
+    #pr = df.profile_report()
 
-    st_profile_report(pr)
+    #st_profile_report(pr)
 
     st.write('### Correlación del dataset sin filtrar por posición')
 
