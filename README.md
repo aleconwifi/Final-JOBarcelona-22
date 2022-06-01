@@ -130,7 +130,7 @@ We will create a virtual environment with `python3`
 
 [Arnau Puche](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com 
 
-[Jordi Segura](https://www.linkedin.com/in/jordisegurapons/) - jordisp09.gmail.com 
+[Jordi Segura](https://www.linkedin.com/in/jordisegurapons/) - jordisp09@gmail.com 
 
 [Pol Gracia](https://www.linkedin.com/in/pol-gràcia-595543200/) - pol.graciae@gmail.com
 
